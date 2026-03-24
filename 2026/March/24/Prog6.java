@@ -1,0 +1,19 @@
+class Prog6{
+        public static void main(String[] args){
+                int x = 15;
+                if(x<10){
+                        System.out.println("1st if");
+                }if(x>10){
+
+                        System.out.println("2nd if");
+                        if(True){
+
+                        System.out.println("3rd if");
+                        }
+                        if(1){
+
+                        System.out.println("3rd if");
+                        }
+                }
+        }
+}
