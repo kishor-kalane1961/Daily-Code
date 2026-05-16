@@ -1,0 +1,20 @@
+import java.util.*;
+class Demo{
+	int x;
+	int y;
+	Demo(int x, int y){
+		this.x = x;
+		this.y = y;
+		System.out.println("In Constructor");
+	}
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Values: ");
+		int n1 = sc.nextInt();
+		int n2 = sc.nextInt();
+		Demo obj = new Demo(n1,n2);
+
+		System.out.println(obj.x);
+		System.out.println(obj.y);
+	}
+}
